@@ -14,6 +14,9 @@ const Navbar = () => {
         <Link className="navbar-brand" to='/'>
           COURSE DETAILS
         </Link>
+        <Link className="navbar-brand" to='/imagetext'>
+          IMAGE TO TEXT
+        </Link>
         
     
       

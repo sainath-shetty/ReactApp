@@ -10,6 +10,7 @@ import Register from './Components/Register';
 import Navbar from './Components/Navbar';
 import Edit from './Components/Edit'
 import Detail from './Components/Detail'
+import Imagetext from './Components/Imagetext';
 function App() {
   return (
     <div>
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/register' element={<Register />} />
         <Route exact path='/edit/:id' element={<Edit />} />
         <Route exact path='/detail/:id' element={<Detail />} />
+        <Route exact path='/imagetext' element={<Imagetext />} />
       </Routes>
     </div>
   );
